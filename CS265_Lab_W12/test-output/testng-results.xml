@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="21" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-14T18:29:04 GMT" name="Default suite" finished-at="2020-12-14T18:29:31 GMT" duration-ms="27448">
+    <groups>
+    </groups>
+    <test started-at="2020-12-14T18:29:04 GMT" name="Default test" finished-at="2020-12-14T18:29:31 GMT" duration-ms="27448">
+      <class name="cs265.PizzaHouseSystemTest">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:04 GMT" name="setUpBeforeClass" finished-at="2020-12-14T18:29:08 GMT" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:08 GMT" name="setUp" finished-at="2020-12-14T18:29:08 GMT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:08 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:09 GMT" duration-ms="768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:09 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:09 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:09 GMT" name="setUp" finished-at="2020-12-14T18:29:09 GMT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:09 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:10 GMT" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:10 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:10 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:10 GMT" name="setUp" finished-at="2020-12-14T18:29:10 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:10 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:10 GMT" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:10 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:10 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:10 GMT" name="setUp" finished-at="2020-12-14T18:29:11 GMT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:11 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:11 GMT" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:11 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:11 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:11 GMT" name="setUp" finished-at="2020-12-14T18:29:11 GMT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:11 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:12 GMT" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:12 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:12 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:12 GMT" name="setUp" finished-at="2020-12-14T18:29:12 GMT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:12 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:13 GMT" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:13 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:13 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=SUCCESS method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:13 GMT" name="setUp" finished-at="2020-12-14T18:29:13 GMT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:13 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:14 GMT" duration-ms="733" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<31>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<31>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at cs265.PizzaHouseSystemTest.TestTemplate(PizzaHouseSystemTest.java:117)
+at cs265.PizzaHouseSystemTest.invalidDataTests(PizzaHouseSystemTest.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:14 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:14 GMT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=FAILURE method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:14 GMT" name="setUp" finished-at="2020-12-14T18:29:14 GMT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:14 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:15 GMT" duration-ms="719" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<30>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<30>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at cs265.PizzaHouseSystemTest.TestTemplate(PizzaHouseSystemTest.java:117)
+at cs265.PizzaHouseSystemTest.invalidDataTests(PizzaHouseSystemTest.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:15 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:15 GMT" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=FAILURE method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:15 GMT" name="setUp" finished-at="2020-12-14T18:29:15 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:15 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:16 GMT" duration-ms="767" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<46>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<46>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at cs265.PizzaHouseSystemTest.TestTemplate(PizzaHouseSystemTest.java:117)
+at cs265.PizzaHouseSystemTest.invalidDataTests(PizzaHouseSystemTest.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:16 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:16 GMT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=FAILURE method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:16 GMT" name="setUp" finished-at="2020-12-14T18:29:16 GMT" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:16 GMT" name="invalidDataTests" description="Testing with INVALID input data" data-provider="invalidData" finished-at="2020-12-14T18:29:17 GMT" duration-ms="762" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<45>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<45>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at cs265.PizzaHouseSystemTest.TestTemplate(PizzaHouseSystemTest.java:117)
+at cs265.PizzaHouseSystemTest.invalidDataTests(PizzaHouseSystemTest.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:17 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:17 GMT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidDataTests status=FAILURE method=PizzaHouseSystemTest.invalidDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:17 GMT" name="setUp" finished-at="2020-12-14T18:29:17 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:17 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:18 GMT" duration-ms="748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:18 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:18 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:18 GMT" name="setUp" finished-at="2020-12-14T18:29:18 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:18 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:19 GMT" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:19 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:19 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:19 GMT" name="setUp" finished-at="2020-12-14T18:29:19 GMT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:19 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:20 GMT" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:20 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:20 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:20 GMT" name="setUp" finished-at="2020-12-14T18:29:20 GMT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:20 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:20 GMT" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:20 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:20 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:20 GMT" name="setUp" finished-at="2020-12-14T18:29:21 GMT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:21 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:21 GMT" duration-ms="768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:21 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:21 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:21 GMT" name="setUp" finished-at="2020-12-14T18:29:21 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:21 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:22 GMT" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:22 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:22 GMT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:22 GMT" name="setUp" finished-at="2020-12-14T18:29:22 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:22 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:23 GMT" duration-ms="744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:23 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:23 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:23 GMT" name="setUp" finished-at="2020-12-14T18:29:23 GMT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:23 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:24 GMT" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:24 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:24 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:24 GMT" name="setUp" finished-at="2020-12-14T18:29:24 GMT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:24 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:25 GMT" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:25 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="setUp" finished-at="2020-12-14T18:29:25 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:25 GMT" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:25 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="setUp" finished-at="2020-12-14T18:29:25 GMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:25 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:26 GMT" duration-ms="724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:26 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:26 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:26 GMT" name="setUp" finished-at="2020-12-14T18:29:26 GMT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:26 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:27 GMT" duration-ms="714" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<50> but was:<51>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<50> but was:<51>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at cs265.PizzaHouseSystemTest.TestTemplate(PizzaHouseSystemTest.java:117)
+at cs265.PizzaHouseSystemTest.validDataTests(PizzaHouseSystemTest.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:27 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:27 GMT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=FAILURE method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:27 GMT" name="setUp" finished-at="2020-12-14T18:29:27 GMT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:27 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:28 GMT" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:28 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:28 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:28 GMT" name="setUp" finished-at="2020-12-14T18:29:28 GMT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:28 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:29 GMT" duration-ms="712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:29 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:29 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:29 GMT" name="setUp" finished-at="2020-12-14T18:29:29 GMT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:29 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:30 GMT" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:30 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:30 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:30 GMT" name="setUp" finished-at="2020-12-14T18:29:30 GMT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:30 GMT" name="validDataTests" description="Testing with VALID input data" data-provider="validData" finished-at="2020-12-14T18:29:30 GMT" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLEPAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTests -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:30 GMT" name="takeScreenShotOnFailure" finished-at="2020-12-14T18:29:30 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validDataTests status=SUCCESS method=PizzaHouseSystemTest.validDataTests(java.lang.String, java.lang.String, cs265.PizzaHouseSystemTest$Payment, java.lang.String)[pri:0, instance:cs265.PizzaHouseSystemTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:cs265.PizzaHouseSystemTest@4445629]" started-at="2020-12-14T18:29:30 GMT" name="tearDownAfterClass" finished-at="2020-12-14T18:29:31 GMT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- cs265.PizzaHouseSystemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
